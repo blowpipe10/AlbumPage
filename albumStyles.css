@@ -3,6 +3,12 @@ table, th, td {
     border-collapse: collapse; 
     }
 table {
+    background-color: yellow
+}
+td {
+    font-style: italic;
+}
+table {
     width: 90%;
     margin: auto;
     }
@@ -15,6 +21,22 @@ th {
     border-collapse: collapse;
     }
 Caption {
-    font: 14pt bold;
+    font: 18pt bold;
     margin-bottom: 10px;
     }
+a {
+    font-size: 18pt;
+}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    background-color: yellow;
+}
+a:active {
+    text-decoration: none;
+}
