@@ -3,7 +3,7 @@ table, th, td {
     border-collapse: collapse; 
     }
 table {
-    background-color: yellow
+    background-color: yellow;
 }
 td {
     font-style: italic;

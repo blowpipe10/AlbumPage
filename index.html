@@ -4,6 +4,14 @@
         <title>Album Page</title>
         <link href="albumStyles.css" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <style>
             h1, h2, h3, td {
                 text-align: center;
@@ -11,11 +19,53 @@
             li {
                 font-style: italic;
             }
+            table, th, td {
+                border: 1px solid Black;
+                border-collapse: collapse; 
+            }
+            table {
+                background-color: yellow;
+            }
+            td {
+                font-style: italic;
+            }
+            table {
+                width: 90%;
+                margin: auto;
+            }
+            ul {
+                margin-left: 10%;
+            }
+            th {
+                background-color: #D5D8DC;
+                border-bottom: 2px solid black;
+                border-collapse: collapse;
+            }
+            Caption {
+                font: 18pt bold;
+                margin-bottom: 10px;
+            }
+            a {
+                font-size: 18pt;
+            }
+            a:link {
+                text-decoration: none;
+            }
+            a:visited {
+                text-decoration: none;
+            }
+            a:hover {
+                text-decoration: underline;
+                background-color: yellow;
+            }           
+            a:active {
+                text-decoration: none;
+            }
         </style>
     </head>
     <body>
         <div style="background-image: url("../albumcover.jpeg);>
-        <img style="display:block;margin:auto;" src="albumcover.jpeg">
+        <img class="img-circle" style="display:block;margin:auto;" src="albumcover.jpeg">
         </div>
         
         <h1>Ladies and Gentlemen: Barnaked Ladies & The Persuasions</h1>
@@ -36,7 +86,7 @@
             <li>Gavin Brown - Producer</li>
         </ul>
         <center>
-        <table>
+        <table class="table table-responsive table-striped">
             <thead>
                 <caption>Tracks</caption>
                 <tr>
